@@ -40,7 +40,7 @@ function setup() {
 
   outputVolume(0.5);
 
-  allSprites.debug = true;
+  allSprites.debug = false;
 
   ship = new Sprite();
   ship.image = shipImg;
